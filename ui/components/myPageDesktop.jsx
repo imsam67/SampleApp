@@ -13,3 +13,5 @@ function mapStateToProps(state){
         ui: state.windowUi
     };
 }
+
+export default connect(mapStateToProps)(myPageDesktop);
